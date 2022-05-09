@@ -231,4 +231,15 @@ function AddStats() {
     p[2].innerHTML = "Your star Rating is: " + starCount + " out of 3";
 }
 
-
+function displayModal() {
+    const modalClose = document.getElementsByClassName("close")[0];
+    modal.style.display = "block";
+    modalClose.onClick = function() {
+        modal.style.display = "none";
+    };
+    window.onclick = function(event) {
+        if (event.target == modal) {
+            modal.style.display = "none";
+        }
+    };
+}
