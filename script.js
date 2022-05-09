@@ -194,4 +194,16 @@ function compareTwo() {
     }
 }
 
+function match() {
+    setTimeout(function() {
+        opened[0].parentElement.classList.add("match");
+        opened[1].parentElement.classList.add("match");
+        matched.push(...opened);
+        document.body.style.pointerEvents = "auto";
+        winGame();
+        opened = [];
+    }, 600);
+    movesCounter();
+    starRating();
+}
 
