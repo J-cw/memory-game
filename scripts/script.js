@@ -40,7 +40,7 @@ const movesCount = document.querySelector(".moves-counter");
 
 let moves = 0;
 
-const star = document.getElementById("rating").querySelectorAll(".star");
+const star = document.getElementById("star-rating").querySelectorAll(".star");
 
 let starCount = 3;
 
