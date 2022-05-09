@@ -261,4 +261,15 @@ deck.addEventListener("click", function(evt) {
         }
         flipCard();
     }
-})
+    function flipCard() {
+        evt.target.classList.add("flip");
+        addToOpened();
+    }
+    function addToOpened() {
+        if (opened.length === 0 || opened.length === 1) {
+            opened.push(evt.target.firstElementChild);
+        }
+        compareTwo();
+    }
+});
+
