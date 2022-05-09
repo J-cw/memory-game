@@ -251,3 +251,14 @@ function winGame() {
         displayModal();
     }
 }
+
+deck.addEventListener("click", function(evt) {
+    if (evt.target.nodeName === "LI") {
+        console.log(evt.target.nodeName + " Was clicked");
+        if (timeStart === false) {
+            timeStart = true;
+            timer();
+        }
+        flipCard();
+    }
+})
