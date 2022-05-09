@@ -28,6 +28,13 @@ const modal = document.getElementById("modal");
 
 const reset = document.querySelector(".reset-btn");
 
+// Access the how to play button
+
+$("#more-info").hide()
+$("#info-btn").click(function() {
+    $("#more-info").show("slow");
+  });
+
 // Access the play again button 
 
 const playAgain = document.querySelector(".play-again-btn");
