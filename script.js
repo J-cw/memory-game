@@ -243,3 +243,11 @@ function displayModal() {
         }
     };
 }
+
+function winGame() {
+    if (matched.length === 16) {
+        stopTime();
+        AddStats();
+        displayModal();
+    }
+}
