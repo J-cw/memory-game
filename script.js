@@ -63,3 +63,41 @@ function shuffle(array) {
     return array;
 }
 
+function startGame() {
+    // Invoke shuffle function and store in variable 
+    
+    const shuffledDeck = shuffle(deckCards);
+    
+    // Iterate over deck of cards array
+    
+    for (let i = 0; i < shuffledDeck.length; i++) {
+       
+        // Create the <li> tags
+        
+        const liTag = document.createElement("LI");
+        
+        // Give <li> class of card
+       
+        liTag.classList.add("card");
+       
+        // Create the <img> tags
+       
+        const addImage = document.createElement("IMG");
+        
+        // Append <img> to <li>
+       
+        liTag.appendChild(addImage);
+       
+        // Set the img src path with the shuffled deck
+       
+        addImage.setAttribute("src", "img/" + shuffledDeck[i]);
+       
+        // Add an alt tag to the image
+        
+        addImage.setAttribute("alt", "image of crown");
+
+        // Update the new <li> to the deck <ul>
+
+        deck.appendChild(liTag);
+    }
+}
