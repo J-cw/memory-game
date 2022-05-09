@@ -163,3 +163,35 @@ function resetEverything() {
     startGame();
 }
 
+function movesCounter() {
+    movesCount.innerHTML ++;
+    moves ++;
+}
+
+function starRating() {
+    if (moves === 14) {
+        star[2].firstElementChild.classList.remove("fa-star");
+        starCount--;
+    }
+    if (moves === 18) {
+        star[1].firstElementChild.classList.remove("fa-star");
+        starCount--;
+    }
+}
+
+/*Compare two cards to see if they match*/
+
+function compareTwo() {
+    // When there are 2 cards in the opened array
+
+    if (opened.length === 2) {
+        document.body.style.pointerEvents = "none";
+    }
+    if (opened.length === 2 && opened[0].src === opened[1].src) {
+        match();
+    } else if (opened.length === 2 && opened[0].src != opened[1].src) {
+        noMatch();
+    }
+}
+
+
