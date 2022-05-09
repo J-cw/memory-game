@@ -14,7 +14,7 @@ html {
 }
 
 body {
-    background: url('imgs/cardBackground.jpg');
+    background: url('../imgs/cardBackground.jpg');
     font-family: "Open Sans", sans-serif;
     font-size: 62.5%;
     letter-spacing: 1.5px;
