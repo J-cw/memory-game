@@ -174,7 +174,7 @@ p.stats:last-child {
 .card {
     background: rgb(255, 255, 255);
     border-radius: 0.5em;
-    height: 7em;
+    /* height: 7em; */
     width: 7em;
 }
 
@@ -238,7 +238,7 @@ img {
     }
 
     .deck img {
-        width: 9em;
+        width: 7.3em;
     }
 
     .modal-content h2 {
@@ -270,7 +270,7 @@ img {
     }
 
     .deck img {
-        width: 13em;
+        width: 11em;
     }
 
     .reset-btn {
