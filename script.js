@@ -273,3 +273,9 @@ deck.addEventListener("click", function(evt) {
     }
 });
 
+reset.addEventListener("click", resetEverything);
+
+playAgain.addEventListener("click", function() {
+    modal.style.display = "none";
+    resetEverything();
+});
