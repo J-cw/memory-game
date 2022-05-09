@@ -119,3 +119,36 @@ h3 {
     padding-right: 2em;
     width: 80%;
 }
+
+.close {
+    align-self: flex-end;
+    color: #28e;
+    font-size: 5em;
+}
+
+.close:hover,
+.close:focus {
+    color: #5cf;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.modal-img {
+    display: inline-block;
+    margin: 1em 0 1em;
+    width: 20em;
+
+}
+
+p.stats {
+    font-weight: 600;
+}
+
+p.stats:last-child {
+    margin-bottom: 1em;
+}
+
+.play-again-btn {
+    background: #28e;
+    margin-bottom: 1em;
+}
