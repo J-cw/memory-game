@@ -30,7 +30,7 @@ const reset = document.querySelector(".reset-btn");
 
 // Access the how to play button
 
-$("#more-info").hide()
+$("#more-info").hide();
 $("#info-btn").click(function() {
     $("#more-info").toggle("slow");
   });
