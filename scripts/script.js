@@ -32,7 +32,7 @@ const reset = document.querySelector(".reset-btn");
 
 $("#more-info").hide()
 $("#info-btn").click(function() {
-    $("#more-info").show("slow");
+    $("#more-info").toggle("slow");
   });
 
 // Access the play again button 

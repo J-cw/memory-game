@@ -14,7 +14,7 @@ html {
 }
 
 body {
-    background: url('../imgs/cardBackground.jpg');
+    background: url('../imgs/2ndBackground.jpg');
     font-family: "Open Sans", sans-serif;
     font-size: 62.5%;
     letter-spacing: 1.5px;
@@ -47,6 +47,9 @@ ul>li {
     padding: 0.8em;
 }
 
+#info-btn {
+    color: #000;
+}
 h1 {
     font-size: 3em;
     font-weight: 400;
