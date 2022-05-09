@@ -47,12 +47,22 @@ ul>li {
     padding: 0.8em;
 }
 
+#more-info {
+    background-color: rgba(0, 0, 0, 0.8);
+    color:#fff;
+    font-size: large;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
 #info-btn {
     color: #000;
+    margin-bottom: 5px;
 }
 h1 {
     font-size: 3em;
     font-weight: 400;
+    color: #fff;
 }
 
 h2 {
@@ -72,6 +82,7 @@ h3 {
 .score-panel {
     font-size: 1.4em;
     padding: 1em 0 2em;
+    background-color: rgba(255, 255, 255, 0.5);
 }
 
 .star-rating>li {
