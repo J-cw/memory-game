@@ -1,4 +1,4 @@
-<h1 align="center">Aura Gym Website</h1>
+<h1 align="center">Memory Game</h1>
 
 [View the live project here.](https://j-cw.github.io/memory-game/)
 
